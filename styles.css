@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form {
+  margin: auto;
+  max-width: 60%;
+  text-align: center;
+}
+
+input[type='submit'], button, [aira-label] {
+  cursor: pointer;
+}
+
+#edit-box {
+  display: none;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#tasks {
+  text-align: left;
+}
