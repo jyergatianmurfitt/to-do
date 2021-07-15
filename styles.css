@@ -1,12 +1,16 @@
-.title {
+.header {
   text-align: center;
   margin-top: 25px;
 }
 
-.form {
+.container {
+  display: flex;
+}
+
+.row {
+  width: 60%;
   margin: auto;
-  max-width: 60%;
-  text-align: center;
+  justify-content: space-between;
 }
 
 input[type='submit'], button, [aira-label] {
@@ -22,4 +26,8 @@ input[type='submit'], button, [aira-label] {
 
 #tasks {
   text-align: left;
+}
+
+#counter {
+  margin-top: 20px;
 }
